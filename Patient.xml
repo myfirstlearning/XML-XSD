@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:patient xmlns:tns="http://www.dheeraj.com/Patient"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.dheeraj.com/Patient Patient.xsd">
+    <tns:id>1</tns:id>
+    <tns:name>dheeraj</tns:name>
+    <tns:age>27</tns:age>
+    <tns:dob>1994-08-24</tns:dob>
+    <tns:email>dheeraj@gmail.com</tns:email>
+    <tns:gender>M</tns:gender>
+    <tns:phone>12345</tns:phone>
+    <tns:payment>
+        <tns:insurance>
+            <tns:provider>A</tns:provider>
+            <tns:limit>1200</tns:limit>
+        </tns:insurance>
+    </tns:payment>
+</tns:patient>
